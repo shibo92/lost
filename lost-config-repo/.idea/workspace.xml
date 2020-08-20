@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb5dfdc0-d619-4158-8d07-98915c520c4f" name="Default Changelist" comment="" />
+    <list default="true" id="bb5dfdc0-d619-4158-8d07-98915c520c4f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../lost-eureka-server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lost-eureka-server/src/main/java/com/shibo/lost/LostEurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lost-eureka-server/src/main/java/com/shibo/lost/LostEurekaServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lost-eureka-server/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lost-eureka-server/src/test/java/com/shibo/lost/LostEurekaServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lost-eureka-server/src/test/java/com/shibo/lost/LostEurekaServerApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

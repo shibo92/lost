@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: lost-api
+  cloud:
+    config:
+      discovery:
+        service-id: lost-api
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://lost-eureka-server-host:8761/eureka/
