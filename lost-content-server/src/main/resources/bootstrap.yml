@@ -1,6 +1,6 @@
 spring:
   application:
-    name: lost-api
+    name: lost-content-server
   cloud:
     config:
       discovery:
