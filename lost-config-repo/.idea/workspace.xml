@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb5dfdc0-d619-4158-8d07-98915c520c4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../lost-eureka-server/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lost-eureka-server/src/main/java/com/shibo/lost/LostEurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lost-eureka-server/src/main/java/com/shibo/lost/LostEurekaServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lost-eureka-server/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lost-eureka-server/src/test/java/com/shibo/lost/LostEurekaServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lost-eureka-server/src/test/java/com/shibo/lost/LostEurekaServerApplicationTests.java" afterDir="false" />
+    <list default="true" id="34c60c9b-7e77-40d7-8141-a1984f265949" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/conf/lost-content-server.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +25,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1gLwJnvZpOklNA5rgbXELUc1MMT" />
+  <component name="ProjectId" id="1gOMHY9jFf2Rx2vn6HktlMtYptB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,20 +36,25 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../daojia/website" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/conf" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\private\idea\spring-microservice\lost\lost-config-repo\conf" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bb5dfdc0-d619-4158-8d07-98915c520c4f" name="Default Changelist" comment="" />
-      <created>1597907110558</created>
+      <changelist id="34c60c9b-7e77-40d7-8141-a1984f265949" name="Default Changelist" comment="" />
+      <created>1597981097245</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1597907110558</updated>
-      <workItem from="1597907117520" duration="319000" />
+      <updated>1597981097245</updated>
+      <workItem from="1597981099056" duration="18000" />
     </task>
     <servers />
   </component>
