@@ -10,3 +10,10 @@ eureka:
   client:
     service-url:
       defaultZone: http://lost-eureka-server-host:8761/eureka/
+
+### actuator/refresh 热部署
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
