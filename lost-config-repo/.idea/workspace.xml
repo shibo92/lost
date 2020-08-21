@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34c60c9b-7e77-40d7-8141-a1984f265949" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/lost-api.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/lost-api.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lost-config-server/src/main/java/com/shibo/lost/LostConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lost-config-server/src/main/java/com/shibo/lost/LostConfigServerApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597981097245</updated>
-      <workItem from="1597981099056" duration="1838000" />
+      <workItem from="1597981099056" duration="2020000" />
     </task>
     <servers />
   </component>
