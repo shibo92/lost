@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34c60c9b-7e77-40d7-8141-a1984f265949" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../lost-api/src/main/java/com/shibo/lost/fiegn/client/ContentClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lost-api/src/main/java/com/shibo/lost/fiegn/fallback/ContentClientFallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lost-api/src/main/java/com/shibo/lost/fiegn/fallback/ContentClientFallBackFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lost-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lost-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lost-api/src/main/java/com/shibo/lost/LostApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lost-api/src/main/java/com/shibo/lost/LostApiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lost-api/src/main/java/com/shibo/lost/controller/HelloworldController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lost-api/src/main/java/com/shibo/lost/controller/HelloworldController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/lost-gateway-server.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.mdecho" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../lost-api/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../lost-api/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lost-config-server/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../lost-config-server/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../blog_cloud/comment" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/conf" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -57,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597981097245</updated>
-      <workItem from="1597981099056" duration="3226000" />
+      <workItem from="1597981099056" duration="3853000" />
     </task>
     <servers />
   </component>
@@ -65,6 +62,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2012" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1597997896310">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2012" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597997896310" />
     <state x="2660" y="278" key="FileChooserDialogImpl" timestamp="1597991890142">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
