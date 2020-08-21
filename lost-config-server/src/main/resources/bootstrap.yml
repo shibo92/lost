@@ -10,7 +10,7 @@ spring:
         git:
           uri: https://github.com/shibo92/lost.git
           search-paths: lost-config-repo/conf
-          force-pull: true
+#          force-pull: true
 eureka:
   client:
     service-url:
