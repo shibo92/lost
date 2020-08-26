@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: lost-auth-server
+  cloud:
+    config:
+      discovery:
+        service-id: lost-config-server
+  redis:
+    database: 2
+    host: localhost
+    port: 6379
+    jedis:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+    timeout: 100ms
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://lost-eureka-server-host:8761/eureka/
