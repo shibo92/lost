@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @author by shibo on 2020/8/20.
  */
 @Controller
-public class HelloWorldController {
+public class ContentHelloWorldController {
 
-    @GetMapping("/content/hw")
+    @GetMapping("/content/api/hw")
     @ResponseBody
     public String contentHelloWorld() {
         return "content hello world";
