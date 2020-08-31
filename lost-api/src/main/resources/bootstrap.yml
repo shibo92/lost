@@ -5,30 +5,8 @@ spring:
     config:
       discovery:
         service-id: lost-config-server
-  zipkin:
-    #zipkin中心地址
-    base-url: http://localhost:9411
-    #发送数据类型 kafaka、rabbitmq、web
-    sender:
-      type: web
-  sleuth:
-    sampler:
-      probability: 1
 
 eureka:
   client:
     service-url:
       defaultZone: http://lost-eureka-server-host:8761/eureka/
-
-
-
-### actuator/refresh 热部署
-management:
-  endpoints:
-    web:
-      exposure:
-        include: refresh
-feign:
-  hystrix:
-    enabled: true
-
