@@ -16,15 +16,15 @@ public class HelloworldController {
     private ContentClient contentClient;
 
 
-        @RequestMapping("/hw")
+    @RequestMapping("/hw")
     @ResponseBody
-    public String helloWorld(){
+    public String helloWorld() {
         return "hello World";
     }
 
     @RequestMapping("/content/hw")
     @ResponseBody
-    public String contentHelloWorld(){
+    public String contentHelloWorld() {
         return contentClient.helloWorld() + "connnnn";
     }
 }

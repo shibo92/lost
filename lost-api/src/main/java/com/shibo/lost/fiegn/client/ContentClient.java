@@ -12,6 +12,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 // @FeignClient(value = "lost-content-server", fallback = ContentClientFallBack.class)
 @FeignClient(value = "lost-content-server", fallbackFactory = ContentClientFallBackFactory.class)
 public interface ContentClient {
-    @RequestMapping(method = RequestMethod.GET, value = "/content/hw")
+    @RequestMapping(method = RequestMethod.GET, value = "/content/api/hw")
     String helloWorld();
 }
