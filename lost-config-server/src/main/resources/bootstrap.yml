@@ -11,7 +11,15 @@ spring:
           uri: https://github.com/shibo92/lost.git
           search-paths: lost-config-repo/conf
           force-pull: true
+
 eureka:
   client:
     service-url:
       defaultZone: http://lost-eureka-server-host:8761/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh, health, info
+
