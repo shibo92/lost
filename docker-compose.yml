@@ -1,0 +1,55 @@
+version: '3'
+services:
+  # mysql:
+  #   image: walleeee/mysql:5.7
+  #   container_name: mysql
+  #   volumes:
+  #    - "./data/mysql/data:/var/lib/mysql"
+  #   networks:
+  #    - eureka-net
+  #   ports:
+  #    - 33060:3306
+       
+  eureka-server:
+    image: walleeee/lost-eureka-server:latest
+    container_name: compose-lost-eureka-server
+    # restart: always
+    # networks:
+    #   - eureka-net
+    extra_hosts:
+      - "lost-eureka-server-host:192.168.200.20"
+    ports:
+      - 8761:8761
+    # environment:
+    #   - "SPRING_PROFILES_ACTIVE=pro"
+
+  config-server:
+    image: walleeee/lost-config-server:latest
+    container_name: compose-lost-config-server
+    # networks:
+    #   - eureka-net
+    extra_hosts:
+      - "lost-eureka-server-host:192.168.200.20"
+    # restart: always
+    ports:
+      - 8888:8888
+    
+
+  # blog:
+  #   image: walleeee/blog:latest
+  #   container_name: blog
+  #   depends_on:
+  #     - mysql
+  #   networks:
+  #     - eureka-net
+  #   extra_hosts:
+  #     - "eureka-server:10.8.8.64"
+  #   restart: always
+  #   ports:
+  #     - 8081:8081
+  #   environment:
+  #     - "SPRING_PROFILES_ACTIVE=pro"
+     
+# networks:
+#   eureka-net:
+#     driver: bridge
