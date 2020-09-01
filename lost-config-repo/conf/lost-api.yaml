@@ -11,6 +11,16 @@ spring:
   sleuth:
     sampler:
       probability: 1
+  ### mybatis配置
+  datasource:
+    url: jdbc:mysql://localhost:3306/lost?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+  type-aliases-package: com.shibo.lost.entity
 
 ### actuator/refresh 热部署
 management:

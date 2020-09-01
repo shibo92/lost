@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 /**
  * @author by shibo on 2020/8/21.
  */
-
-@Component
+// 使用ContentClientFallBackFactory代替
+// @Component
 public class ContentClientFallBack implements ContentClient {
 
     @Override
