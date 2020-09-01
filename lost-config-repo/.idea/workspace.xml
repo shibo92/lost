@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34c60c9b-7e77-40d7-8141-a1984f265949" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../lost-api/src/main/java/com/shibo/lost/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lost-api/src/main/java/com/shibo/lost/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lost-api/src/main/java/com/shibo/lost/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lost-api/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lost-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lost-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lost-api/src/main/java/com/shibo/lost/LostApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lost-api/src/main/java/com/shibo/lost/LostApiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lost-api/src/main/java/com/shibo/lost/controller/HelloworldController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lost-api/src/main/java/com/shibo/lost/controller/HelloWorldController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lost-api/src/main/java/com/shibo/lost/fiegn/fallback/ContentClientFallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lost-api/src/main/java/com/shibo/lost/fiegn/fallback/ContentClientFallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/lost-api.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/lost-api.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lost-config-server/src/main/docker/lost-config-server-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../lost-config-server/src/main/docker/lost-config-server-0.0.1-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +51,7 @@
       <updated>1597981097245</updated>
       <workItem from="1597981099056" duration="4524000" />
       <workItem from="1598862111700" duration="3314000" />
-      <workItem from="1598929432578" duration="27000" />
+      <workItem from="1598929432578" duration="172000" />
     </task>
     <task id="LOCAL-00001" summary="``">
       <created>1598865986806</created>
