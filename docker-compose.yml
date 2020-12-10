@@ -20,6 +20,9 @@ services:
       - "lost-eureka-server-host:192.168.200.20"
     ports:
       - 8761:8761
+    networks:
+      extnetwork:
+        ipv4_address: 172.19.0.2
     # environment:
     #   - "SPRING_PROFILES_ACTIVE=pro"
 
@@ -35,7 +38,10 @@ services:
       - eureka-server
     ports:
       - 8888:8888
-    
+    networks:
+      extnetwork: 
+        ipv4_address: 172.19.0.3
+
 
   # blog:
   #   image: walleeee/blog:latest
@@ -55,3 +61,9 @@ services:
 # networks:
 #   eureka-net:
 #     driver: bridge
+
+networks:
+   extnetwork:
+      ipam:
+         config:
+         - subnet: 172.19.0.0/16

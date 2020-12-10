@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34c60c9b-7e77-40d7-8141-a1984f265949" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/conf/lost-api.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/lost-api.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lost-api/src/main/java/com/shibo/lost/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lost-api/src/main/java/com/shibo/lost/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lost-api/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../lost-api/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +34,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lost-config-server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lost-eureka-server" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -52,6 +55,8 @@
       <workItem from="1597981099056" duration="4524000" />
       <workItem from="1598862111700" duration="3314000" />
       <workItem from="1598929432578" duration="172000" />
+      <workItem from="1599030176885" duration="390000" />
+      <workItem from="1607584426647" duration="1466000" />
     </task>
     <task id="LOCAL-00001" summary="``">
       <created>1598865986806</created>
@@ -71,21 +76,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="``" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2401" y="114" key="CommitChangelistDialog2" timestamp="1598865985915">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="740" y="278" width="440" height="481" key="FileChooserDialogImpl" timestamp="1607585139649">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="2401" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598865985915" />
-    <state x="2012" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1597997896310">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2012" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597997896310" />
-    <state x="2660" y="278" key="FileChooserDialogImpl" timestamp="1598866225168">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2660" y="278" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598866225168" />
-    <state x="2472" y="256" key="Vcs.Push.Dialog.v2" timestamp="1598865988670">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2472" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598865988670" />
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599030567143" />
+    <state x="740" y="278" width="440" height="481" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607585139649" />
   </component>
 </project>

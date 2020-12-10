@@ -4,7 +4,9 @@ spring:
   cloud:
     config:
       discovery:
-        service-id: lost-config-server
+        enabled: true
+        # 本地运行指定service-id后，由于config-server是使用ip暴露的，所以会导致无法访问
+        # service-id: lost-config-server
 
 eureka:
   client:
