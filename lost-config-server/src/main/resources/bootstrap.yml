@@ -8,9 +8,12 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/shibo92/lost.git
+          uri: https://gitee.com/wall-eeee/lost.git
           search-paths: lost-config-repo/conf
           force-pull: true
+          basedir: /tmp/config-repo
+          skip-ssl-validation: true
+          timeout: 100
 
 eureka:
   client:
@@ -19,10 +22,10 @@ eureka:
   instance:
     prefer-ip-address: true
     instance-id: ${spring.cloud.client.ip-address}:${server.port}
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: refresh, health, info
+#
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: refresh, health, info
 

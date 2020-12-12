@@ -15,14 +15,12 @@ services:
     container_name: compose-lost-eureka-server
     # restart: always
     # networks:
-    #   - eureka-net
+      # - eureka-net
+    # network_mode: host
     extra_hosts:
       - "lost-eureka-server-host:192.168.200.20"
     ports:
       - 8761:8761
-    networks:
-      extnetwork:
-        ipv4_address: 172.19.0.2
     # environment:
     #   - "SPRING_PROFILES_ACTIVE=pro"
 
@@ -30,7 +28,8 @@ services:
     image: walleeee/lost-config-server:latest
     container_name: compose-lost-config-server
     # networks:
-    #   - eureka-net
+      # - eureka-net
+    network_mode: host
     extra_hosts:
       - "lost-eureka-server-host:192.168.200.20"
     # restart: always
@@ -38,9 +37,6 @@ services:
       - eureka-server
     ports:
       - 8888:8888
-    networks:
-      extnetwork: 
-        ipv4_address: 172.19.0.3
 
 
   # blog:
@@ -57,13 +53,7 @@ services:
   #     - 8081:8081
   #   environment:
   #     - "SPRING_PROFILES_ACTIVE=pro"
-     
+
 # networks:
 #   eureka-net:
 #     driver: bridge
-
-networks:
-   extnetwork:
-      ipam:
-         config:
-         - subnet: 172.19.0.0/16
