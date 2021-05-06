@@ -3,12 +3,12 @@ spring:
     name: lost-api
   cloud:
     config:
-      discovery:
-        enabled: true
+#      discovery:
+#        enabled: true
         # 本地运行指定service-id后，由于config-server是使用ip暴露的，所以会导致无法访问
-        service-id: lost-config-server
+#        service-id: lost-config-server
       # 当不使用eureka注册中心发现config服务时，可以指定uri来拉取配置
-      # uri: http://lost-eureka-server-host:8888/
+       uri: http://lost-eureka-server-host:8888/
 
 eureka:
   client:
