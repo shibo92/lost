@@ -8,6 +8,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.rocketmq.client.producer.SendResult;
 import org.apache.rocketmq.spring.core.RocketMQTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -27,7 +28,8 @@ public class HelloWorldController {
     private UserService userService;
     @Autowired
     private RocketMQTemplate rocketMQTemplate;
-
+    @Value("${xc.rocketmq2.topic-string}")
+    private String stringTopic;
 
     @RequestMapping("/hw")
     @ResponseBody
@@ -50,7 +52,7 @@ public class HelloWorldController {
      */
     @GetMapping("mq/test/sync")
     public void sync() {
-        SendResult sendResult = rocketMQTemplate.syncSend("topic_string", "Hello world!");
+        SendResult sendResult = rocketMQTemplate.syncSend(stringTopic, "Hello world!");
         log.info("同步发送字符串{}, 发送结果{}", "topic_string", sendResult);
     }
 }
