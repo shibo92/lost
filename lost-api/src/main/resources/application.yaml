@@ -32,3 +32,31 @@ management:
 feign:
   hystrix:
     enabled: true
+
+### rocketmq
+
+
+## 是否开启自动配置
+#rocketmq:
+#  producer:
+#    isOnOff: on
+##    groupName: # 发送同一类消息设置为同一个group，保证唯一默认不需要设置，rocketmq会使用ip@pid（pid代表jvm名字）作为唯一标识
+#    namesrvAddr: 127.0.0.1:9876 # mq的nameserver地址
+#  # 消息最大长度 默认 1024 * 4 (4M)
+#    maxMessageSize: 4096
+#  # 发送消息超时时间，默认 3000
+#    sendMsgTimeOut: 3000
+#  # 发送消息失败重试次数，默认2
+#    retryTimesWhenSendFailed: 2
+#
+
+xc:
+  rocketmq2:
+    topic-string: topic_string
+    topic-user: topic_user
+    string-consumer-group: string_consumer_group
+    user-consumer-group: user_consumer_group
+rocketmq:
+  name-server: 127.0.0.1:9876
+  producer:
+    group: producer_group_test
