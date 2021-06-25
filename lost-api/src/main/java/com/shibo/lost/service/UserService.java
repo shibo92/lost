@@ -16,4 +16,8 @@ public class UserService {
     public User getUserById(Long userId) {
         return userMapper.selectById(userId);
     }
+
+    public Long save(User u) {
+        return userMapper.save(u);
+    }
 }

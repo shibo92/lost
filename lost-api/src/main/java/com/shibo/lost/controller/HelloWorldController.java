@@ -6,9 +6,13 @@ import com.shibo.lost.fiegn.client.ContentClient;
 import com.shibo.lost.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.rocketmq.client.producer.SendResult;
+import org.apache.rocketmq.client.producer.TransactionSendResult;
+import org.apache.rocketmq.remoting.common.RemotingHelper;
 import org.apache.rocketmq.spring.core.RocketMQTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.messaging.Message;
+import org.springframework.messaging.support.MessageBuilder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -51,8 +55,21 @@ public class HelloWorldController {
      * @throws Exception
      */
     @GetMapping("mq/test/sync")
-    public void sync() {
+    public void msgSync() {
         SendResult sendResult = rocketMQTemplate.syncSend(stringTopic, "Hello world!");
+        log.info("同步发送字符串{}, 发送结果{}", "topic_string", sendResult);
+    }
+
+    /**
+     * 同步发送
+     * 页面访问http://localhost:8080/rocketmq/sync
+     *
+     * @throws Exception
+     */
+    @GetMapping("mq/test/trans")
+    public void msgTransaction(Long orderId) {
+        Message<String> message = MessageBuilder.withPayload(String.valueOf(orderId)).build();
+        TransactionSendResult sendResult = rocketMQTemplate.sendMessageInTransaction(stringTopic, message, message);
         log.info("同步发送字符串{}, 发送结果{}", "topic_string", sendResult);
     }
 }

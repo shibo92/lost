@@ -7,4 +7,5 @@ import com.shibo.lost.entity.User;
  */
 public interface UserMapper {
     User selectById(Long userId);
+    Long save(User u);
 }

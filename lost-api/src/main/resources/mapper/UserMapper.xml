@@ -4,4 +4,7 @@
     <select id="selectById" resultType="com.shibo.lost.entity.User">
         select * from t_user
     </select>
+    <insert id="save" parameterType="com.shibo.lost.entity.User">
+        INSERT INTO t_user (id, name) VALUES (#{id}, #{name})
+    </insert>
 </mapper>

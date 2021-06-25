@@ -15,8 +15,14 @@ public class Consumer implements RocketMQListener<String> {
 
     private Logger log = LoggerFactory.getLogger(this.getClass());
 
+
+    /**
+     * 不要捕获异常信息，否则无法进行消息重新推送
+     */
     @Override
     public void onMessage(String message) {
         log.info("消费字符串消息{}", message);
+        int a = Integer.parseInt(message);
+        int b = 1/a;
     }
 }
