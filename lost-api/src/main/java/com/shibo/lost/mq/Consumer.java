@@ -23,6 +23,6 @@ public class Consumer implements RocketMQListener<String> {
     public void onMessage(String message) {
         log.info("消费字符串消息{}", message);
         int a = Integer.parseInt(message);
-        int b = 1/a;
+        // int b = 1/a;
     }
 }

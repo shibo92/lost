@@ -17,6 +17,13 @@ spring:
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
+  ### sentinel dashboard
+  cloud:
+    sentinel:
+      transport:
+        eager: true
+        port: 8791
+        dashboard: localhost:9090
 
 mybatis:
   mapper-locations: classpath:mapper/*Mapper.xml
@@ -30,12 +37,12 @@ management:
         include: refresh, health, info
 
 feign:
-  hystrix:
+#  hystrix:
+#    enabled: true
+  sentinel:
     enabled: true
-
-### rocketmq
-
-
+ribbon:
+  ReadTimeout: 1000000
 ## 是否开启自动配置
 #rocketmq:
 #  producer:
@@ -60,3 +67,4 @@ rocketmq:
   name-server: 127.0.0.1:9876
   producer:
     group: producer_group_test
+
