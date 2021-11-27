@@ -60,9 +60,9 @@ ribbon:
 xc:
   rocketmq2:
     topic-string: topic_string
-    topic-user: topic_user
     string-consumer-group: string_consumer_group
-    user-consumer-group: user_consumer_group
+#    topic-user: topic_user
+#    user-consumer-group: user_consumer_group
 rocketmq:
   name-server: 127.0.0.1:9876
   producer:
